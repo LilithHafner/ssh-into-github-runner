@@ -6,6 +6,6 @@ jobs:
     steps:
     - uses: julia-actions/install-juliaup@v2
       with:
-        channel: '1'
+        channel: 'pr56678'
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
