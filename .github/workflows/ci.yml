@@ -4,6 +4,8 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: julia-actions/install-juliaup@v2
+      with:
+        channel: '1'
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
