@@ -4,9 +4,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: julia-actions/install-juliaup@v2
+    - uses: julia-actions/setup-julia@v2
       with:
-        channel: 1
+        version: 1
         arch: x86
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
